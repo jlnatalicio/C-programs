@@ -1,7 +1,7 @@
-// Obejtivo: fazer um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, 
-// utilizando as seguintes fÛrmulas (onde h corresponde ‡ altura):
-// ï Homens: (72.7 * h) -58 
-// ï Mulheres: (62.1 * h) - 44.7
+// Objetivo: fazer um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, 
+// utilizando as seguintes f√≥rmulas (onde h corresponde √† altura):
+// ‚Ä¢ Homens: (72.7 * h) -58 
+// ‚Ä¢ Mulheres: (62.1 * h) - 44.7
 
 #include <stdio.h>
 
@@ -15,10 +15,10 @@ int main() {
 	
 	printf("Altura (m): ");
 	scanf("%f", &altura);
-	fflush(stdin); // util agora, porem tbm n„o È recomendado usar essa funÁ„o
+	fflush(stdin); // util agora, porem tbm n√£o √© recomendado usar essa fun√ß√£o
 	printf("Sexo [M/F]: ");
 	sexo = getchar();
-	//scanf("%c", &sexo); // n„o È recomendado usar essa funÁ„o para vari·veis do tipo char ou string!
+	//scanf("%c", &sexo); // n√£o √© recomendado usar essa fun√ß√£o para vari√°veis do tipo char ou string!
 	
 	if (sexo == 'F' || sexo == 'f') {
 		printf("%f\n\n", altura);
