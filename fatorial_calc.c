@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/* Exercício 2:  Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
-*  OBS.: O fatorial de um número inteiro e positivo “n”, representado por “n!” é obtido a partir da
-*        multiplicação de todos os seus antecessores até o número um, cuja expressão genérica é
-*        n! = n . (n – 1). (n – 2). (n – 3) ... 2,1.
+/* Objetivo:  Utilizando uma funÃ§Ã£o recursiva, calcule e retorne o fatorial de um nÃºmero inteiro N.
+*  OBS.: O fatorial de um nÃºmero inteiro e positivo â€œnâ€, representado por â€œn!â€ Ã© obtido a partir da
+*        multiplicaÃ§Ã£o de todos os seus antecessores atÃ© o nÃºmero um, cuja expressÃ£o genÃ©rica Ã©
+*        n! = n . (n â€“ 1). (n â€“ 2). (n â€“ 3) ... 2,1.
 */
 
 int N,
