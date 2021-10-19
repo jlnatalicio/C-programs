@@ -25,6 +25,8 @@ int main()
     fatorial = calcularFatorial(N);
     printf("\nO fatorial de %d e igual a %d\n\n", N, fatorial);
 
+    getchar();
+    fflush(stdin);
     return 0;
 }
 
