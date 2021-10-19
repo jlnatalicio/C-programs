@@ -4,6 +4,7 @@
 // • Mulheres: (62.1 * h) - 44.7
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
 	
